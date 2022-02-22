@@ -1,2 +1,7 @@
 /env
 /txt
+/controllers/__pycache__
+/controllers/test.py
+/ui_files
+/views/__pycache__
+/views/main_window_backup.py
