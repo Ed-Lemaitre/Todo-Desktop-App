@@ -9,6 +9,7 @@ from PySide2.QtWidgets import (
 from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QGraphicsDropShadowEffect
 from views.main_window import MainWindow
+from controllers.add_window import AddWindowForm
 
 
 class MainWindowForm(QWidget, MainWindow):
@@ -57,6 +58,8 @@ class MainWindowForm(QWidget, MainWindow):
 
     def add_button_action(self):
         self.active_list_widget.addItem("add_button_action")
+        self.window = AddWindowForm()
+        self.window.show()
 
     def title_buttons_actions(self):
         self.restore_button.clicked.connect(self.restore_button_action)
