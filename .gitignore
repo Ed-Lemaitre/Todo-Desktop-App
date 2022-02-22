@@ -5,3 +5,7 @@
 /ui_files
 /views/__pycache__
 /views/main_window_backup.py
+controllers/__pycache__/main_window.cpython-310.pyc
+database/__pycache__/connector.cpython-310.pyc
+database/__pycache__/todo.cpython-310.pyc
+
